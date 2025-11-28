@@ -26,16 +26,8 @@ The model is trained using Ultralytics YOLOv8 and deployed using Gradio.
 
 ## 📂 Project Structure
 📦 Fire-Detection-YOLOv8
-├── best.pt                   # Trained fire detection model
-├── app.py                    # Gradio deployment script
-├── data.yaml                 # Dataset configuration
-├── requirements.txt          # Project dependencies
-├── README.md                 # Documentation
-├── /dataset/                 # (Optional) Only if you want to include sample images
-│   ├── train/
-│   ├── valid/
-│   └── test/
-└── /docs/                    # Architecture diagrams, training plots
+<img width="323" height="592" alt="image" src="https://github.com/user-attachments/assets/821af0c5-9181-4cda-b03a-6c5eb9625a78" />
+
 
 ## 🧠 YOLOv8 Architecture (Brief)
 
