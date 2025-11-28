@@ -18,10 +18,15 @@ The model is trained using Ultralytics YOLOv8 and deployed using Gradio.
 ## 🚀 Features
 
 ✔ Real-time fire detection
+
 ✔ Trained on a custom dataset
+
 ✔ High recall on fire class
+
 ✔ YOLOv8 small model (fast + accurate)
+
 ✔ Includes Gradio Web UI for deployment
+
 ✔ Can run on CPU or GPU
 
 ## 📂 Project Structure
