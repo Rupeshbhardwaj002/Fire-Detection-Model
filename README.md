@@ -73,7 +73,7 @@ pip install -r requirements.txt
 ## 🎯 Model Training Command
 
 This is the final training command used:
-
+```bash
 yolo detect train \
   data="/content/Firee_detection_dataset/Fire dataset YOLOV8/data.yaml" \
   model=yolov8s.pt \
@@ -86,7 +86,7 @@ yolo detect train \
   degrees=10 translate=0.1 scale=0.8 fliplr=0.5 mosaic=0.8 \
   patience=20 \
   name=Fire_detector_fast
-
+```
 ## 📊 Model Performance
 
 Confusion Matrix (from training results):
