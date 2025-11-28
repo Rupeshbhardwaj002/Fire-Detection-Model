@@ -59,7 +59,7 @@ This architecture helps YOLOv8 detect fire at multiple scales.
 
 ## 🛠 Installation
 ### 1️⃣ Clone the repository
-git clone https://github.com/your-username/Fire-Detection-YOLOv8.git
+git clone [ (https://github.com/Rupeshbhardwaj002/Fire-Detection-Model/tree/main)](https://github.com/Rupeshbhardwaj002/Fire-Detection-Model/tree/main)
 cd Fire-Detection-YOLOv8
 
 ### 2️⃣ Install requirements
