@@ -126,12 +126,16 @@ model = YOLO("best.pt")
 model.predict("sample_video.mp4", save=True, conf=0.4)
 
 ## 🌐 Hosting Options
-Platform	Speed	Free	Recommended
-Hugging Face Spaces	⭐⭐⭐	Yes	✔ Best overall
-Render	⭐⭐⭐⭐	Limited	Good
-Roboflow Inference	⭐⭐⭐⭐⭐	No	Paid, very fast
-Google Colab + Ngrok	⭐⭐⭐	Free	Temporary
-✔ Advantages
+Platform	            Speed	       Free	         Recommended
+
+Hugging Face Spaces	  ⭐⭐⭐	     Yes	         ✔ Best overall
+
+Render	             ⭐⭐⭐⭐	   Limited	     Good
+
+Roboflow Inference	 ⭐⭐⭐⭐⭐	  No Paid    very fast
+
+Google Colab 	       ⭐⭐⭐	      Free	      Temporary
+## ✔ Advantages
 
 Real-time detection
 
