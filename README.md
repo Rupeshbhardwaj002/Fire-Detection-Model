@@ -103,7 +103,7 @@ mAP50-95: ~16%
 
 The model works well for real-time indoor fire detection but can be improved with more data.
 
-🎥 Run the Gradio App (Deployment)
+## 🎥 Run the Gradio App (Deployment)
 ### 1️⃣ Add your best.pt file
 
 Place the model in the root folder.
