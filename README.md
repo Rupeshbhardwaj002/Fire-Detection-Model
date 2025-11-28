@@ -1,4 +1,4 @@
-#🔥 Fire Detection Using YOLOv8
+# 🔥 Fire Detection Using YOLOv8
 
 Real-Time Fire Detection Model for CCTV, Indoor Safety Monitoring, and Early Hazard Warning Systems
 
