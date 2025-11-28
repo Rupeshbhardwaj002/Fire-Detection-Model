@@ -2,7 +2,7 @@
 
 Real-Time Fire Detection Model for CCTV, Indoor Safety Monitoring, and Early Hazard Warning Systems
 
-📌 Overview
+## 📌 Overview
 
 This project implements a YOLOv8-based fire detection system trained on a custom dataset of 3500 fire and background images.
 The goal is to detect fire in:
@@ -15,7 +15,7 @@ Real-time surveillance systems
 
 The model is trained using Ultralytics YOLOv8 and deployed using Gradio.
 
-🚀 Features
+## 🚀 Features
 
 ✔ Real-time fire detection
 ✔ Trained on a custom dataset
@@ -24,7 +24,7 @@ The model is trained using Ultralytics YOLOv8 and deployed using Gradio.
 ✔ Includes Gradio Web UI for deployment
 ✔ Can run on CPU or GPU
 
-📂 Project Structure
+## 📂 Project Structure
 📦 Fire-Detection-YOLOv8
 ├── best.pt                   # Trained fire detection model
 ├── app.py                    # Gradio deployment script
@@ -37,23 +37,23 @@ The model is trained using Ultralytics YOLOv8 and deployed using Gradio.
 │   └── test/
 └── /docs/                    # Architecture diagrams, training plots
 
-🧠 YOLOv8 Architecture (Brief)
+## 🧠 YOLOv8 Architecture (Brief)
 
 YOLOv8 consists of:
 
-1️⃣ Backbone (Feature Extraction)
+### 1️⃣ Backbone (Feature Extraction)
 
 Uses C2f blocks
 
 Learns edges, flames, smoke textures
 
-2️⃣ Neck (Feature Fusion)
+### 2️⃣ Neck (Feature Fusion)
 
 PAN (Path Aggregation Network)
 
 Combines low-level and high-level features
 
-3️⃣ Detection Head
+### 3️⃣ Detection Head
 
 Predicts:
 
@@ -65,15 +65,15 @@ Confidence scores
 
 This architecture helps YOLOv8 detect fire at multiple scales.
 
-🛠 Installation
-1️⃣ Clone the repository
+## 🛠 Installation
+### 1️⃣ Clone the repository
 git clone https://github.com/your-username/Fire-Detection-YOLOv8.git
 cd Fire-Detection-YOLOv8
 
-2️⃣ Install requirements
+### 2️⃣ Install requirements
 pip install -r requirements.txt
 
-🎯 Model Training Command
+## 🎯 Model Training Command
 
 This is the final training command used:
 
@@ -90,7 +90,7 @@ yolo detect train \
   patience=20 \
   name=Fire_detector_fast
 
-📊 Model Performance
+## 📊 Model Performance
 
 Confusion Matrix (from training results):
 
@@ -107,14 +107,14 @@ mAP50-95: ~16%
 The model works well for real-time indoor fire detection but can be improved with more data.
 
 🎥 Run the Gradio App (Deployment)
-1️⃣ Add your best.pt file
+### 1️⃣ Add your best.pt file
 
 Place the model in the root folder.
 
-2️⃣ Run the app
+### 2️⃣ Run the app
 python app.py
 
-3️⃣ Gradio Interface
+### 3️⃣ Gradio Interface
 
 Upload video
 
@@ -128,7 +128,7 @@ from ultralytics import YOLO
 model = YOLO("best.pt")
 model.predict("sample_video.mp4", save=True, conf=0.4)
 
-🌐 Hosting Options
+## 🌐 Hosting Options
 Platform	Speed	Free	Recommended
 Hugging Face Spaces	⭐⭐⭐	Yes	✔ Best overall
 Render	⭐⭐⭐⭐	Limited	Good
@@ -144,7 +144,7 @@ Runs on CPU
 
 Good for CCTV-based fire alerts
 
-❌ Limitations
+## ❌ Limitations
 
 May detect bright lights as fire
 
